@@ -1,0 +1,489 @@
+﻿
+
+
+
+body{
+     
+	 background-image: url("/assets/images/background3.jpg");
+	 font-family: Verdana, Arial , sans-serif;/*this makes the font style*/
+	 font-size: small;
+	 width:100&;
+	 margin: 0;
+	 padding: 0;
+	
+	 }
+	 
+
+#container{
+
+     width:95%;
+	 margin:auto;
+	 display:inline block;
+	 
+	 
+	 
+	 
+}	 
+#container img
+
+{
+	max-width:100%;
+	
+	
+	
+
+
+}
+
+#left
+{
+	float:left;
+	background-image:url("/assets/images/old-paper.jpg");
+	color: #170007;
+	margin-top: 5em;
+	margin-left: auto;
+	width:30%;
+	padding:1em;
+	
+
+
+
+}
+
+
+
+
+#mainpage img
+
+{
+	
+	
+	padding:2.10em;
+	width:14em;
+	height:auto;
+   
+
+}
+#mainpage :hover
+
+{
+
+	
+	height:auto;
+	border-radius: 50%;
+    transform: rotate(360deg);
+	transition: all 1.9s ease-in-out 0s;
+	
+    
+}
+
+
+#logo{
+      width:100%;
+	  height:auto;
+	  
+}
+
+#logo img {
+
+     width:100%;
+
+
+}
+
+#nav
+
+{	background-image:url("/assets/images/old-paper.jpg");
+	border:solid #170007 .1em;
+	color:#170007;
+	line-height:1.5em;
+	text-align:center;
+	height:2em;
+	width:100%;
+	padding-top : 1em;
+	padding-bottom: 1em;
+	margin: auto;
+	padding-right; 2em;
+
+
+}
+
+p {
+	padding:1.5em;
+	text-align:left;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	
+
+
+
+
+	}
+h1
+{
+     text-align:center;
+	 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	 color:#170007;
+	 
+
+}
+#box
+{
+	float:center;
+	background-image:url("/assets/images/old-paper.jpg");
+	color:#170007;
+	width:50%;
+	margin-top:5%;
+	margin-left:22%;
+	padding:2em;
+	border:solid #170007 .1em;
+	
+
+
+
+}
+h2
+{
+	text-align:center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 120%;
+	color:#170007;
+	
+}
+h3
+{	text-align:center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 150%;
+	color:#170007;
+	
+
+
+}
+#content
+
+	{
+	background-image:url("/assets/images/old-paper.jpg");
+	border:solid #170007 .1em;
+	width:75%;
+	color:#170007;
+	float:right;
+	margin-top:1em;
+	margin-right:auto;
+	padding:1em;
+	
+	
+
+	}
+#content img 
+
+{	float:right;
+	margin: 1em;
+	clear:right;
+	padding:1em;
+	border:solid #170007 0.001em;
+
+
+
+}
+#content video
+{
+	float:left;
+	margin: 1em;
+	max-width:75%;
+	max-height:75%;
+	padding:1em;
+	border:solid #170007 0.0001em;
+
+
+
+
+}
+#content2
+
+	{
+	background-image:url("/assets/images/old-paper.jpg");
+	border:solid #170007 .1em;
+	width:47%;
+	color:#170007;
+	float:right;
+	margin-top:1em;
+	margin-right:auto;
+	padding:1em;
+	
+	
+
+	}
+#content2 img 
+
+{	float:right;
+	margin: 1em;
+	clear:right;
+	padding:1em;
+	
+
+
+
+}
+#content2 video
+{
+	float:left;
+	margin: 1em;
+	max-width:75%;
+	max-height:75%;
+	padding:1em;
+   
+
+
+
+
+}
+
+
+#content3
+
+	{
+	background-image:url("/assets/images/old-paper.jpg");
+	border:solid #170007 .1em;
+	width:47%;
+	color:#170007;
+	float:left;
+	margin-top:1em;
+	margin-right:auto;
+	padding:1em;
+	display: inline-block;
+	
+	
+
+	}
+#content3 img 
+
+{	float:right;
+	margin: 1em;
+	clear:right;
+	padding:1em;
+
+
+
+
+
+}
+#content3 video
+{
+	float:left;
+	margin: 1em;
+	max-width:75%;
+	max-height:75%;
+	padding:1em;
+
+}
+
+#char
+{
+	background-image:url("/assets/images/old-paper.jpg");
+	width:90%;
+	color:#170007;
+	margin-top:1em;
+	margin-right:auto;
+	padding:1em;
+	border:solid #170007 0.001em;
+	
+
+
+}
+#content4
+
+{
+	width:100%;
+	float:left;
+	margin-top:1em;
+	margin-right:auto;
+	padding:1em;
+	
+
+}
+#content5
+
+	{
+	background-image:url("/assets/images/old-paper.jpg");
+	border:solid #170007 .1em;
+	width:70%;
+	color:#170007;
+	float:left;
+	margin-top:1em;
+	margin-right:auto;
+	padding:1em;
+	
+	
+
+	}
+#content5 img 
+
+{	float:right;
+	margin: 1em;
+	clear:right;
+	padding:1em;
+	border:solid #170007 0.001em;
+
+
+
+}
+#content5 video
+{
+	float:left;
+	margin: 1em;
+	max-width:75%;
+	max-height:75%;
+	padding:1em;
+
+
+
+
+}
+#content6
+
+	{
+	background-image:url("/assets/images/old-paper.jpg");
+	border:solid #170007 .1em;
+	width:25%;
+	color:#170007;
+	float:right;
+	margin-top:1em;
+	margin-right:auto;
+	padding:1em;
+	
+	
+
+	}
+
+#content6 video
+{
+	float:right;
+	clear:right;
+	margin: 1em;
+	max-width:75%;
+	max-height:75%;
+	padding:1em;
+	margin-top:5em;
+
+
+
+
+}
+
+
+
+#leftside
+{	border:solid #170007 .1em;
+	width:20%;
+	float:left;
+	background-image:url("/assets/images/old-paper.jpg");
+	color:#170007;
+	margin-left: auto;
+	margin-top:1em;
+	clear:left;
+	
+	
+	
+}
+#leftside img
+{
+  
+	margin-left:auto;
+	max-width:75%;
+	max-height:75%;
+	clear:right;
+	padding:1em;
+
+
+
+}
+
+a
+{
+
+		padding-right:1em;
+		color:#170007;
+
+
+}
+a:visited 
+{   color:#190C0A;
+
+
+
+}
+a:hover
+{
+	color:#FE9607;
+	text-decoration:none;
+   
+	
+}
+
+a:link
+{
+	color:#010102;
+	text-decoration:none;
+	
+
+
+}
+
+
+
+#footer
+{
+	
+     background-image:url("/assets/images/old-paper.jpg");
+	 width:98%;
+	 clear:both;
+	 padding:1em;
+	 margin-top:1em;
+	 margin:auto;
+	 line-height:1.5em;
+	 border:solid #170007 .1em;
+	 
+	 
+	
+	 
+
+}
+ul{
+	list-style:none;
+	text-align:center;
+	text-decoration:underline;
+
+
+}
+
+#leftfoot
+{
+	width:20%;
+	float:left;
+	clear:left;
+	color:#170007;
+	
+	
+
+
+}
+#rightfoot
+{
+	width:25%;
+	float:right;
+	clear:right;
+	color:#170007;
+
+}
+ #middle
+ {
+	width:45%;
+	color:#170007;
+ 
+ 
+ }
+
+
+	 
+
+
