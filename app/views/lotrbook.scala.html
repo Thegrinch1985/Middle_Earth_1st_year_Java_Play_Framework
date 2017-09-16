@@ -16,17 +16,17 @@
 
 <body>
 <div id="container">
-<div id="logo"> <img src="images/banner2.jpg" alt="Lord Of The Rings"> 
+<div id="logo"> <img src="@routes.Assets.versioned("images/banner2.jpg" )" alt="Lord Of The Rings"> 
 </div>
 <div id="nav"> 
-<a href="welcomepage.html">Home</a>
-<a href="hobbit.html">The Hobbit</a>
-<a href="lotr.html">Lord of the rings</a>
-<a href="J.R.R.Tolkien.html">J.R.R.Tolkien</a>
-<a href="Characters.html">Characters</a>
-<a href="hobbitbook.html">The Hobbit (book)</a>
-<a href="lotrbook.html">The Lord of The Rings (book)</a>
-<a href="Map.html">Maps</a>
+<a href="@routes.HomeController.welcomePage" )">Home</a>
+<a href="@routes.HomeController.hobbit" )" >The Hobbit</a>
+<a href="@routes.HomeController.lotr" )" >Lord of the rings</a>
+<a href="@routes.HomeController.tolkien" )">J.R.R.Tolkien</a>
+<a href="@routes.HomeController.characters" )">Characters</a>
+<a href="@routes.HomeController.hobbitbook" )">The Hobbit (book)</a>
+<a href="@routes.HomeController.lotrbook" )">The Lord of The Rings (book)</a>
+<a href="@routes.HomeController.map_lotr" )">Maps</a>
 
 
 </div>
@@ -34,17 +34,17 @@
 <h1>Fan Art </h1>
 
  <h2>Gollum</h2>
- <p><img src="images/fanart5.jpg" alt="Fanart"></p>
+ <p><img src="@routes.Assets.versioned("images/fanart5.jpg" )" alt="Fanart"></p>
  
  
   <h2>Attack at Minus Tirth</h2>
- <p><img src="images/fanart4.jpg" alt="Fanart"></p>
+ <p><img src="@routes.Assets.versioned("images/fanart4.jpg" )" alt="Fanart"></p>
  
   <h2>Smaug</h2>
- <p><img src="images/fanart3.jpg" alt="Fanart"></p>
+ <p><img src="@routes.Assets.versioned("images/fanart3.jpg" )" alt="Fanart"></p>
 
   <h2>Hobbits</h2>
- <p><img src="images/fanart2.jpg" alt="Fanart"></p>
+ <p><img src="@routes.Assets.versioned("images/fanart2.jpg" )" alt="Fanart"></p>
 
 
 
@@ -63,7 +63,7 @@
 "The Precious will be ours, once the Hobbitses are dead!"
  - Gollum, The Lord of the Rings </h3>
  
- <img src="images/lotrfilm1.jpg" alt="Middle Earth">
+ <img src="@routes.Assets.versioned("images/lotrfilm1.jpg" )" alt="Middle Earth">
 <p>
 The Lord of the Rings is an epic high-fantasy novel written by English author J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is the second best-selling novel ever written, with over 150 million copies sold.
 
@@ -94,30 +94,29 @@ The enduring popularity of The Lord of the Rings has led to numerous references 
 
 
 
-
-
 <div id="footer">
 
 <div id="leftfoot">
 <ul>
-<li><a href="hobbitbook.html">The Hobbit</a></li>
-<li><a href="hobbit.html">The Hobbit Film</a></li>
-<li><a href="J.R.R.Tolkien.html">J.R.R Tolkien</a></li>
+<li><a href="@routes.HomeController.hobbit" )" >The Hobbit</a></li>
+<li>
+<a href="@routes.HomeController.lotrbook" )">The Lord of The Rings (book)</a></li>
+<li><a href="@routes.HomeController.tolkien" )">J.R.R.Tolkien</a></li>
 
 </ul>
 </div>
 <div id="rightfoot">
 <ul>
-<li><a href="lotr.html#1">The Fellowship of the Ring</a></li>
-<li><a href="lotr.html#2">The Two Towers</a></li>
-<li><a href="lotr.html#3">The Return Of The King</a></li>
+<li><a href="@routes.HomeController.lotr" )" >Lord of the rings</a></li>
+<li><a href="@routes.HomeController.lotr" )" >Lord of the rings</a></li>
+<li><a href="@routes.HomeController.lotr" )" >Lord of the rings</a></li>
 
 </ul>
 </div>
 <div id="middle">
 <ul>
-<li><a href="Characters.html">Characters</a> </li>
-<li><a href="Map.html">Map of Middle Earth</a></li>
+<li><a href="@routes.HomeController.characters" )">Characters</a> </li>
+<li><a href="@routes.HomeController.map_lotr" )">Maps</a></li>
 <br>
 </ul>
 

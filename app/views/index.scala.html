@@ -1,20 +1,74 @@
-@*
- * This template takes a single argument, a String containing a
- * message to display.
- *@
+
+
 @(message: String)
+@main("Home") {
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Welcome Page</title>
 
-@*
- * Call the `main` template with two arguments. The first
- * argument is a `String` with the title of the page, the second
- * argument is an `Html` object containing the body of the page.
- *@
-@main("Welcome to Play") {
+</head>
 
-    @*
-     * Get an `Html` object by calling the built-in Play welcome
-     * template and passing a `String` message.
-     *@
-    @play20.welcome(message, style = "Java")
+<header></header>
 
+<body>
+<div id="container">
+<div id="box">
+<h1>Middle Earth</h1>
+<p>Welcome to the middle Earth Website. This site has Information on all of J.R.R Tolkiens work and also Peter Jacksons Adaptations of the books into films. There is also information on characters in the films. Their is also a whole page dedicated to the man himself J.R.R Tolkein who without his brilliant mind none of this incredible world would off been possible.Please click on one of the images to enter the site and to start to immerse yourself in the middle earth world</p>
+</div>
+
+<div id="mainpage">
+
+
+
+<a href="@routes.HomeController.hobbitbook" )" ><img src="@routes.Assets.versioned("images/hobbitbook.jpg ") " alt="Front Cover oF the Hobbit"></a>
+<a href="lotr.html#1"><img src="@routes.Assets.versioned("images/Lotrbook1.jpg ")" alt="Front Cover oF the Lord of the Rings The Fellowship of the ring"></a>
+<a href="lotr.html#2"><img src="@routes.Assets.versioned("images/lotrbook2.jpg ")" alt="Front Cover oF the Lord of the Rings The Two Towers"></a>
+<a href="lotr.html#3"><img src="@routes.Assets.versioned("images/lotrbook3.jpg ")"  alt="Front Cover oF the Lord of the Rings The Return of the King"></a>
+<a href="@routes.HomeController.lotrbook " ) "><img src="@routes.Assets.versioned("images/lotrfilm1.jpg ")" alt="Front Cover oF the Lord of the Rings "></a>
+<a href="@routes.HomeController.hobbit " )" ><img src="@routes.Assets.versioned("images/hobbitfilm1.jpg ")"  alt="Front Cover oF the Hobbit An unexpected Journey"></a>
+<a href="@routes.HomeController.characters " ) "><img src="@routes.Assets.versioned("images/lotrchar.jpg ")" alt="Characters"></a>
+<a href="@routes.HomeController.tolkien " ) "><img src="@routes.Assets.versioned("images/logo.jpg ")"  alt="Image of J.R.R.Tolkein"></a>
+<a href="@routes.HomeController.map_lotr " ) "><img src="@routes.Assets.versioned("images/hobbits2.jpg ")" alt="Map of Middle Earth></a>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer">
+
+</body><!--closes the body tag-->
+</div>
+</html><!--closes the html tag-->
 }
